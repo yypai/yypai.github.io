@@ -3,7 +3,7 @@ var data = [1000, 880, 30, 21, 15, 6]
 
 var body = d3.select("body");
 var div = body.append("div");
-div.html("Hello, worldsss!");
+div.html("d3. test");
 
 
 console.log(body)
