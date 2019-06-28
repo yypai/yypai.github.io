@@ -6,7 +6,7 @@ var div = body.append("div");
 div.html("d3. test");
 
 
-console.log(body)
+console.log("ohoh")
 
 d3.select(".chart")
   .selectAll("div")
