@@ -1,10 +1,24 @@
 @charset "UTF-8";
+
+
+
+
+
+
+
+
+
+
+
+
+
 #banner {
 	width: 100%;
 	position: relative;
 	height: auto;
 	max-height: none;
 	max-width: 100%;
+	margin: 0;
 }
 #title-text {
 	position: absolute;
@@ -15,6 +29,7 @@
 	font-variant: normal;
 	font-size: 300%;
 	font-weight: 300;
+	margin: 0;
 }
 #title-text-alt  {
 	position: absolute;
@@ -25,7 +40,28 @@
 	max-width: 500px;
 	bottom: auto;
 	top: 180px;
+	margin: 0;
 }
+
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  margin: 0;
+}
+
+/* Navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
 .regular-h2 {
 	font-weight: 400;
 }
@@ -48,6 +84,7 @@
     max-height: 350px;
     display: block;
     max-width: 472px;
+    padding-top: 25px;
 }
 .list_section .sec_reg .work-h2 {
     font-weight: 500;
