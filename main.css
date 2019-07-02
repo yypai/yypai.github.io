@@ -1,25 +1,48 @@
 @charset "UTF-8";
 
-
-
-
-
-
-
-
-
-
-
-
-
-#banner {
-	width: 100%;
-	position: relative;
-	height: auto;
-	max-height: none;
-	max-width: 100%;
-	margin: 0;
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    margin: 0;
 }
+
+/* Navbar links */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+.container_parallax{
+	margin: 0 0;
+	background: #f9f9f9;
+}
+
+.parallax{
+    background-image: url(images/Top.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.parallax-lab{
+    background-image: url("images/Top_probe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+
 #title-text {
 	position: absolute;
 	left: 100px;
@@ -44,23 +67,6 @@
 }
 
 
-/* Style the navbar */
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-  margin: 0;
-}
-
-/* Navbar links */
-#navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-    font-weight: 400;
-}
 
 .regular-h2 {
 	font-weight: 400;
