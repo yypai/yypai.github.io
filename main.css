@@ -21,15 +21,15 @@
 	margin: 0;
 }
 #title-text-alt  {
-	position: absolute;
-	color: #FFFFFF;
-	left: 100px;
-	font-weight: 300;
-	width: 60%;
-	max-width: 500px;
-	bottom: auto;
-	top: 180px;
-	margin: 0;
+    position: absolute;
+    color: #FFFFFF;
+    left: 100px;
+    font-weight: 300;
+    width: 70%;
+    max-width: 500px;
+    bottom: auto;
+    top: 180px;
+    margin: 0;
 }
 
 
@@ -105,19 +105,27 @@ body {
   width: 70%;
 }
 
+.awe_container {
+  max-width: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .artwork {
-    background-image: -webkit-linear-gradient(318deg,rgba(141,141,141,1.00) 0%,rgba(81,81,81,1.00) 100%);
-    background-image: -moz-linear-gradient(318deg,rgba(141,141,141,1.00) 0%,rgba(81,81,81,1.00) 100%);
-    background-image: -o-linear-gradient(318deg,rgba(141,141,141,1.00) 0%,rgba(81,81,81,1.00) 100%);
-    background-image: linear-gradient(132deg,rgba(141,141,141,1.00) 0%,rgba(81,81,81,1.00) 100%);
+    background-image: -webkit-linear-gradient(20deg,rgba(210,210,210,1.00) 0%,rgba(159,159,159,1.00) 100%);
+    background-image: -moz-linear-gradient(20deg,rgba(210,210,210,1.00) 0%,rgba(159,159,159,1.00) 100%);
+    background-image: -o-linear-gradient(20deg,rgba(210,210,210,1.00) 0%,rgba(159,159,159,1.00) 100%);
+    background-image: linear-gradient(70deg,rgba(210,210,210,1.00) 0%,rgba(159,159,159,1.00) 100%);
     border-radius: 20px;
 }
 
 .artwork2 {
-    background-image: -webkit-linear-gradient(318deg,rgba(255,244,0,1.00) 0.79%,rgba(255,201,0,1.00) 100%);
-    background-image: -moz-linear-gradient(318deg,rgba(255,244,0,1.00) 0.79%,rgba(255,201,0,1.00) 100%);
-    background-image: -o-linear-gradient(318deg,rgba(255,244,0,1.00) 0.79%,rgba(255,201,0,1.00) 100%);
-    background-image: linear-gradient(132deg,rgba(255,244,0,1.00) 0.79%,rgba(255,201,0,1.00) 100%);
+    background-image: -webkit-linear-gradient(318deg,rgba(255,250,154,1.00) 0.79%,rgba(255,233,155,1.00) 100%);
+    background-image: -moz-linear-gradient(318deg,rgba(255,250,154,1.00) 0.79%,rgba(255,233,155,1.00) 100%);
+    background-image: -o-linear-gradient(318deg,rgba(255,250,154,1.00) 0.79%,rgba(255,233,155,1.00) 100%);
+    background-image: linear-gradient(132deg,rgba(255,250,154,1.00) 0.79%,rgba(255,233,155,1.00) 100%);
     border-radius: 20px;
 }
 
@@ -127,4 +135,10 @@ body footer {
 	font-size: small;
 	font-weight: 400;
 	text-shadow: 0 0;
+}
+
+@media (max-width: 600px){
+#title-text-alt {
+    font-size: medium;
+}
 }
